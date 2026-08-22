@@ -93,7 +93,7 @@ define Device/jdcloud_re-cs-02
 	$(call Device/EmmcImage)
 	DEVICE_VENDOR := JDCloud
 	DEVICE_MODEL := RE-CS-02
-	KERNEL_SIZE := 6144k
+	KERNEL_SIZE := 12288k
 	SOC := ipq6010
 	DEVICE_DTS_CONFIG := config@cp03-c3
 	DEVICE_PACKAGES := ipq-wifi-jdcloud_re-cs-02 ath11k-firmware-qcn9074-ddwrt luci-app-athena-led luci-i18n-athena-led-zh-cn
@@ -120,7 +120,7 @@ define Device/jdcloud_re-ss-01
 	$(call Device/EmmcImage)
 	DEVICE_VENDOR := JDCloud
 	DEVICE_MODEL := RE-SS-01
-	KERNEL_SIZE := 6144k
+	KERNEL_SIZE := 12288k
 	SOC := ipq6000
 	DEVICE_DTS_CONFIG := config@cp03-c2
 	DEVICE_PACKAGES := ipq-wifi-jdcloud_re-ss-01
